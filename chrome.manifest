@@ -1,0 +1,4 @@
+content  twitter-fox-enhancer  content/
+
+overlay chrome://browser/content/browser.xul   chrome://twitter-fox-enhancer/content/overlay.xul
+

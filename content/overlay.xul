@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<overlay id="twtitter-fox-enhancer"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://twitter-fox-enhancer/content/twitterFoxEnhancer.js"/>
+</overlay>
+

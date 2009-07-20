@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            id="twitter-fox-enhancer-prefs"
+            title="prefs">
+  <prefpane id="enhancement">
+    <preferences>
+      <preference id="max-messages" name="extensions.twitternotifier.maximumMessages" type="int"/>
+    </preferences>
+    <vbox>
+      <hbox>
+        <label value="Maximum number of messages: "/>
+        <label id="max-messages-label" value=""/>
+      </hbox>
+      <hbox>
+        <scale
+          id="max-messages-scale"
+          label="Maximum number of messages:"
+          preference="max-messages"
+          min="0"
+          max="20"
+          width="250"
+        />
+      </hbox>
+    </vbox>
+  </prefpane>
+  <script type="application/x-javascript" src="chrome://twitter-fox-enhancer/content/preference.js"/>
+</prefwindow>
+
