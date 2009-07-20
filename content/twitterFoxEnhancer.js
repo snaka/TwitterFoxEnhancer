@@ -1,4 +1,9 @@
-(function(){
+(function main(){
+
+    if (!('gTwitterNotifier' in window)) {
+      setTimeout(function() main(),500);
+      return;
+    }
 
     let twitter = gTwitterNotifier;
 
@@ -59,7 +64,7 @@
                     .getService().wrappedJSObject;
         growl.register(
           'TwitterFox',
-          'http://www.hatena.ne.jp/images/top/side_b.gif',
+          "http://s3.amazonaws.com/twitter_production/profile_images/107988817/TwitterFox_bigger.png",
           [{name: 'notify', displayName: 'notify'}]
         );
         return {
