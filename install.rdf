@@ -5,7 +5,7 @@
                    em:id="twitter-fox-enhancer@snaka.openid.ne.jp"
                    em:name="twitter-fox-enhancer"
                    em:description="Add some feature to TwitterFox."
-                   em:version="1.0.0"
+                   em:version="1.1.0"
                    em:creator="snaka.gml@gmail.com"
                    em:homepageURL="http://d.hatena.ne.jp/snaka72/"
                    em:optionsURL="chrome://twitter-fox-enhancer/content/preference.xul">
